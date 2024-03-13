@@ -1,0 +1,120 @@
+/* Add CSS here */
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  display: grid;
+  place-content: center;
+  height: 100vh;
+  background-image: url(https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+
+.nametxt {
+  border: #ccc solid 3px;
+  border-radius: 3px;
+  height: 2rem;
+  margin-bottom: 1rem;
+  width: 10.1rem;
+}
+
+.email,
+.password {
+  border: #ccc solid 3px;
+  border-radius: 3px;
+  height: 2rem;
+  width: 21.2rem;
+  margin-bottom: 1rem;
+}
+
+.container {
+  box-shadow: black 0 0 16px;
+  border-radius: 10px;
+  background-color: #181616a8;
+}
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+  width: 21.5rem;
+  margin: 4rem;
+}
+
+.headline {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+  color: white;
+}
+
+.desc {
+  text-align: center;
+  font-size: 14px;
+  margin: 0.4rem;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: white;
+}
+
+.join-btn {
+  background-color: #1877f2;
+  color: white;
+  height: 2.2rem;
+  width: 18rem;
+  margin-top: 0.6rem;
+  margin-bottom: 1.2rem;
+  width: 21.5rem;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.join-btn:hover {
+  background-color: #ccc;
+  color: black;
+  font-weight: bold;
+}
+
+.create-btn:hover {
+  background-color: #ccc;
+  color: black;
+  font-weight: bold;
+}
+
+.create-btn {
+  background-color: #013982;
+  color: white;
+  height: 2.2rem;
+  width: 21.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.or {
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 1rem;
+  font-weight: 500;
+  color: white;
+}
+
+.name {
+  display: flex;
+  gap: 10px;
+}
+
+div input {
+  text-indent: 8px;
+}
+
+.policy {
+  font-size: 13.5px;
+  color: white;
+}

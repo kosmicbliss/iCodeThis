@@ -1,0 +1,71 @@
+/* Add CSS here */
+body {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: #f579b1;
+}
+
+.container {
+  height: 30rem;
+  width: 20rem;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: #060603 0 0 5px;
+  padding-top: 1rem;
+}
+
+.bdaycount {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+body img {
+  margin-top: 2.5px;
+  width: 3.2rem;
+  border-radius: 30px;
+}
+
+.person-container {
+  display: grid;
+  height: 24rem;
+  width: 16rem;
+  margin-left: 1.7rem;
+  line-height: 10px;
+}
+
+.name {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.person {
+  display: flex;
+  height: 3.5rem;
+}
+
+.person-name {
+  margin-left: 12px;
+  margin-top: -2px;
+}
+
+.btn {
+  width: 16.5rem;
+  height: 3rem;
+  border-radius: 5px;
+  font-size: 16px;
+  box-shadow: #fdb0af 0 0 5px;
+}
+
+.btn:hover {
+  background-color: #fdb0af;
+  box-shadow: black 0 0 5px;
+}
+
+body p {
+  font-size: 14px;
+}

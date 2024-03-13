@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  font-family: "Poppines", Arial, Helvetica, sans-serif;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-color: #bbbcb7;
+  font-size: 17px;
+}
+
+.container {
+  width: 50%;
+  height: 60%;
+}
+
+.square {
+  display: inline-block;
+  box-shadow: black 0 0 8px;
+  height: 4vh;
+  margin-left: 3rem;
+  margin-top: 0.8rem;
+  background-color: white;
+}
+
+.square:after {
+  animation: progress 6s linear backwards;
+}
+
+.square-dark {
+  display: inline-block;
+  box-shadow: black 0 0 8px;
+  height: 4vh;
+  margin-left: 3rem;
+  margin-top: 0.8rem;
+  color: white;
+  background-color: #0e2c45;
+}
+
+.square:hover {
+  margin-left: 1rem;
+  margin-right: 0.5rem;
+  font-weight: bold;
+}
+
+.square-dark:hover {
+  margin-left: 1rem;
+  margin-right: 0.5rem;
+  font-weight: bold;
+}
+
+.round {
+  box-shadow: black 0 0 8px;
+  height: 4vh;
+  margin-left: 3rem;
+  margin-top: 0.8rem;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.round-dark {
+  box-shadow: black 0 0 8px;
+  height: 4vh;
+  margin-left: 3rem;
+  margin-top: 0.8rem;
+  border-radius: 20px;
+  color: white;
+  background-color: #0e2c45;
+}
+
+.round:hover {
+  margin-left: 1rem;
+  margin-right: 0.5rem;
+  font-weight: bold;
+}
+
+.round-dark:hover {
+  margin-left: 1rem;
+  margin-right: 0.5rem;
+  font-weight: bold;
+}
+
+.loading {
+  box-shadow: black 0 0 8px;
+  height: 4vh;
+  margin-left: 3rem;
+  margin-top: 0.8rem;
+  background-color: white;
+}
+
+.loading-dark {
+  box-shadow: black 0 0 8px;
+  height: 4vh;
+  margin-left: 3rem;
+  margin-top: 0.8rem;
+  color: white;
+  background-color: #0e2c45;
+}
+
+.loading:hover {
+  margin-left: 1rem;
+  margin-right: 0.5rem;
+  font-weight: bold;
+}
+
+.loading-dark:hover {
+  margin-left: 1rem;
+  margin-right: 0.5rem;
+  font-weight: bold;
+}
+
+.sqr-container {
+  margin-top: 4.2rem;
+  display: grid;
+}
+
+.rnd-container {
+  margin-top: 4.2rem;
+  display: grid;
+}
+
+.lding-container {
+  margin-top: 4.2rem;
+  display: grid;
+}
+
+.check {
+  display: inline-block;
+  margin-top: 5px;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 20px;
+  height: 1.8rem;
+  width: 1.8rem;
+  background-color: #8bc43f;
+  margin-left: 0.3rem;
+}
+
+.check-dark {
+  display: inline-block;
+  margin-top: 5px;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 20px;
+  height: 1.8rem;
+  width: 1.8rem;
+  background-color: white;
+  margin-left: 0.3rem;
+  color: black;
+}
+
+div small {
+  margin-left: 0.5rem;
+  margin-top: 10px;
+}
+
+.close {
+  margin-top: 7px;
+  margin-right: 10px;
+  font-size: 18px;
+  display: inline-flex;
+  float: inline-end;
+  color: gray;
+  text-decoration: none;
+}
